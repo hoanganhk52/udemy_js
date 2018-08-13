@@ -18,8 +18,9 @@
 
 - Object: A collection of name/value pairs
 - undefined: special value that is also a special keyword in JavaScript, it's the value that variables receive during the creation phase.
-
 - Operators: A special function that is syntactically (written) differently
+- coercion: converting a value from one type to another
+  - example: 1 + '2' = '12'
 
 #### The global environment and The global object
 
@@ -63,4 +64,4 @@
 #### Operator Precedence and Associativity(quyen uu tien va ket hop)
 
 - operator precedence: functions art called in order of precedence (HIGHER precedence wins)
-- Associativity: what order operator functions get called in: left-to-right or right-to-left. Whwn functions have the same precedence
+- Associativity: what order operator functions get called in: left-to-right or right-to-left. Whwn functions have the same precedence - [refs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
