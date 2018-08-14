@@ -1,6 +1,4 @@
-# 01.Execution Contexts and lexical Environments
-
-#### Conceptual aside
+# Conceptual aside
 
 - syntax parsers:
 
@@ -21,6 +19,36 @@
 - Operators: A special function that is syntactically (written) differently
 - coercion: converting a value from one type to another
   - example: 1 + '2' = '12'
+
+# Dangerous aside
+
+# Big word alert
+
+### namespace: a container for variable and functions
+
+- typically to keep variables and functions with the same name separate
+
+### first class function
+
+- everything you can do with other types you can do with functions
+- assign them to variables, pass them around, create them on the fly
+
+### expression
+
+- A unit of code that results in a value
+- it doesn't have to save to a variable
+
+### mutate
+
+- to change something
+- "immutable" means it cant be changed
+
+### Arguments
+
+- The parameters you pass to a function
+- JS gives you a keyword of the same name which contains them all
+
+# 01.Execution Contexts and lexical Environments
 
 #### The global environment and The global object
 
@@ -65,3 +93,36 @@
 
 - operator precedence: functions art called in order of precedence (HIGHER precedence wins)
 - Associativity: what order operator functions get called in: left-to-right or right-to-left. Whwn functions have the same precedence - [refs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
+#### Comparison operators: [refs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+
+#### Existence and booleans
+
+# 02. Objects and functions
+
+#### objects and the dot
+
+```javascript
+obj["a"]["b"] = obj.a.b;
+```
+
+#### objects and objects literals
+
+- Object literals
+
+```javascript
+var a = { a: "a", b: "b" };
+```
+
+#### functions are objects
+
+#### functions statements and function expressions
+
+#### By value and by reference
+
+- All primitive types are by value
+- All objects are by reference
+
+#### Objects, functions and "this"
+
+#### Arguments and spread

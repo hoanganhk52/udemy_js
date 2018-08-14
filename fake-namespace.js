@@ -1,0 +1,2 @@
+var english = {};
+var spanish = {};
