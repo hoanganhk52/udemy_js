@@ -19,8 +19,13 @@
 - Operators: A special function that is syntactically (written) differently
 - coercion: converting a value from one type to another
   - example: 1 + '2' = '12'
+- ## Classical VS prototypal inheritance
 
 # Dangerous aside
+
+### automatic semicolon insertion
+
+- should put semicolon
 
 # Big word alert
 
@@ -47,6 +52,17 @@
 
 - The parameters you pass to a function
 - JS gives you a keyword of the same name which contains them all
+
+### Whitespace
+
+- Invisible characters that create literal 'space' in your written code
+- Like: carriage returns, tabs, spaces
+
+### Callback function
+
+- A function you give to another function, to be run when the other function is finished
+
+### Inheritance: one object gets access to the properties and methods of another object
 
 # 01.Execution Contexts and lexical Environments
 
@@ -126,3 +142,25 @@ var a = { a: "a", b: "b" };
 #### Objects, functions and "this"
 
 #### Arguments and spread
+
+#### IIFE and save code
+
+#### Closure: closure.js
+
+#### Function factory
+
+#### closure and callback
+
+#### call(), apply() and bind()
+
+# 3. object-oriented javascript and prototypal inheritance
+
+#### prototype
+
+- all object include function have "proto" property
+
+#### everything is an Object (or primitive)
+
+- prototype chain
+
+#### reflection and extend
