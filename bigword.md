@@ -38,3 +38,8 @@
 ### reflection
 
 - an object can look at itself, listing and changing its properties and methods
+
+### function constructors
+
+- a normal function that is used to construct objects
+- the "this" variable points a new empty object, and the object is returned from the function atomatically
