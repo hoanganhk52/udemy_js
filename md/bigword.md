@@ -43,3 +43,11 @@
 
 - a normal function that is used to construct objects
 - the "this" variable points a new empty object, and the object is returned from the function atomatically
+
+### polyfill
+
+- code that adds a feature which the engine may lack
+
+### syntactic
+
+- different way to type something that doesn't change how it works under the hood
