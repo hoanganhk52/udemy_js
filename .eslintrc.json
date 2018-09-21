@@ -1,0 +1,6 @@
+{
+  "extends": ["eslint-config-airbnb-es5", "plugin:prettier/recommended"],
+  "rules": {
+    "no-console": "off"
+  }
+}
